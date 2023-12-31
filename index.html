@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="onInit()" >
+    <h1>Minesweeper game</h1>
+    <button class="beginner" data-4="4" onclick="gameLevel(this)">Beginner</button>
+    <button class="medium" data-8="8" onclick="gameLevel(this)">Medium</button>
+    <button class="expert" data-12="12" onclick="gameLevel(this)">Expert</button>
+
+    <div class="board-container"></div>
+    <!-- <table></table> -->
+    
+    <footer>
+        <p>All rights reserved To OMER TEPER.</p>
+    </footer>
+
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
